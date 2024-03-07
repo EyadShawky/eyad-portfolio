@@ -1,0 +1,27 @@
+@import "./variables";
+
+.about-vh{
+    height: 50vh;
+}
+
+.about-vh h3{
+    font-size: 42px;
+    font-weight: 600;
+    color: $fourth;
+}
+
+.about-vh p{
+    font-size: 22px;
+}
+
+.about-vh span{
+    color: $fourth;   
+    font-weight: 600;
+
+}
+
+.lottie-line{
+    height: 150px;
+    position: relative;
+    bottom: 60px;
+}

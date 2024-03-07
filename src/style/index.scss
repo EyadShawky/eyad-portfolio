@@ -1,0 +1,27 @@
+@import "./variables";
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+html,
+body {
+  background-color: $primary ;
+  padding: 0;
+  margin: 0;
+  font-family: "Madimi One", sans-serif;
+  font-optical-sizing: auto;
+  color: $secondary;
+}
+
+a {
+  text-decoration: none;
+ 
+}
+
+* {
+  box-sizing: border-box;
+  text-transform: capitalize !important;
+}
+
+.ant-card-meta-title{
+  color: $primary !important;
+  font-size: 22px !important;
+  font-weight: 600;
+}

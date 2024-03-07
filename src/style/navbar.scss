@@ -1,0 +1,19 @@
+@import "./variables";
+
+.lottie-linkedin{
+    height: 70px;
+}
+
+.lottie-github{
+    height: 38px;
+}
+
+.nav-link {
+    color: $secondary !important;
+    font-size: 22px !important;
+    transition: 0.3s;
+}
+
+.nav-link :hover{
+    color: $third !important;
+}

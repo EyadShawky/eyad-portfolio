@@ -1,0 +1,39 @@
+@import "./variables";
+
+
+.vh-landing {
+    position: relative;
+    bottom: 10%;
+    height: 100vh;
+}
+
+.vh-landing p {
+    font-size: 32px;
+}
+
+.vh-landing span {
+    font-size: 52px;
+    padding-left: 8px;
+    color: $fourth;
+    font-weight: 600;
+}
+
+.lottie-landing {
+    height: 80vh;
+}
+
+.btn-landing {
+    background-color: $primary;
+    width: 100%;
+    height: 50px;
+    border-radius: 18px;
+    color: $secondary;
+    font-size: 22px;
+    border: 2.5px solid $secondary;
+    transition: 0.5s;
+}
+
+.btn-landing:hover {
+    background-color: $secondary;
+    color: $primary ;
+}
