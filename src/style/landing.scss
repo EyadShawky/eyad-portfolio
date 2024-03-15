@@ -1,39 +1,64 @@
 @import "./variables";
 
+.landing{
+    background-color: $primary !important;
+    height: 100vh;
+}
 
 .vh-landing {
     position: relative;
     bottom: 10%;
     height: 100vh;
+    background-color: $primary !important;
 }
 
-.vh-landing p {
-    font-size: 32px;
-}
 
-.vh-landing span {
-    font-size: 52px;
-    padding-left: 8px;
-    color: $fourth;
-    font-weight: 600;
-}
 
 .lottie-landing {
     height: 80vh;
+    
 }
 
 .btn-landing {
-    background-color: $primary;
-    width: 100%;
+    background-color: $third;
+    width: 60%;
     height: 50px;
     border-radius: 18px;
-    color: $secondary;
+    color: #fff;
     font-size: 22px;
-    border: 2.5px solid $secondary;
+    border: 2.5px solid $third;
     transition: 0.5s;
 }
 
 .btn-landing:hover {
-    background-color: $secondary;
-    color: $primary ;
+    border: 2.5px solid $third;
+    background-color: #fff;
+    color: $third ;
 }
+
+.vh-landing span{
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 2.1px !important;
+    margin-bottom: 20px !important;
+    color: $text;
+}
+
+.vh-landing h1{
+    font-size: 40px !important;
+    font-weight: 700 !important;
+    line-height: 30px !important;
+    text-transform: uppercase !important;
+    margin-bottom: 15px !important;
+    color: $third;
+}
+
+.vh-landing p{
+    max-width: 680px;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: none;
+    color: $text;
+}
+

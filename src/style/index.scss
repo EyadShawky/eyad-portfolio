@@ -1,13 +1,13 @@
 @import "./variables";
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 html,
 body {
-  background-color: $primary ;
+  background-color: $primary !important ;
   padding: 0;
   margin: 0;
-  font-family: "Madimi One", sans-serif;
-  font-optical-sizing: auto;
-  color: $secondary;
+  font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+  color: $text;
 }
 
 a {
@@ -24,4 +24,33 @@ a {
   color: $primary !important;
   font-size: 22px !important;
   font-weight: 600;
+}
+
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root{
+  background-color: #fff !important;
+  padding: 8px;
+  box-shadow: 0 3px 16px #0000001a !important;
+  
+}
+
+.css-p7bec2-MuiTypography-root{
+  color: $text !important;
+  font-size: 25px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.03938em !important;
+}
+
+.css-1kkpk3h-MuiButtonBase-root-MuiButton-root{
+  color: $text !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+
+.css-1kkpk3h-MuiButtonBase-root-MuiButton-root:hover{
+  background-color: $primary !important;
+  color: $third !important;
+}
+
+.css-6iz4mj-MuiButtonBase-root-MuiIconButton-root{
+  color: $text !important;
 }

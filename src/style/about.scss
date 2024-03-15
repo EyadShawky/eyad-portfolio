@@ -1,7 +1,7 @@
 @import "./variables";
 
 .about-vh{
-    height: 50vh;
+    height: 100vh;
 }
 
 .about-vh h3{
@@ -24,4 +24,53 @@
     height: 150px;
     position: relative;
     bottom: 60px;
+}
+
+.card{
+    box-shadow: 0 1px 3px #0000001a, 0 1px 2px #0000000f;
+    background-color: #fff;
+    
+}
+
+.card-body-about{
+    font-size: 18px !important;
+    font-weight: 600 !important;
+}
+
+.icons{
+    color: $secondary;
+    font-size: 22px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+.span-about{
+font-weight: 700 !important;
+font-size: 28px;
+color: #fff !important;
+margin-bottom: 42px !important;
+}
+
+.span-about-2{
+    color: $secondary !important;
+}
+    
+
+
+.vh-about-1{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.text-body{
+    font-size: 18px !important;
+}
+
+.bg-tools{
+    background-color: $third !important;
+    box-shadow: 0 1px 3px #0000001a, 0 1px 2px #ffffff0f;
+    border-radius: 12px;
+    
+
 }
