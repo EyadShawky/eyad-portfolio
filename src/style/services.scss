@@ -1,0 +1,70 @@
+@import "./variables";
+
+.vh-services{
+    height: 100%;
+    background-color: $fourth;
+    margin-top: 50px;
+}
+
+.service{
+    padding: 22px;
+}
+
+.service h3{
+    padding-top: 12px;
+    font-size: 32px;
+    color: $text;
+    font-weight: 700;
+    font-style: to-upper-case($string: "");
+}
+
+.service p{
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 570px;
+    font-weight: 500;
+}
+
+.card-service{
+    padding: 50px 35px;
+    width: 402px !important;
+    min-height: 1px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    background-color: $primary;
+    border-radius: 12px;
+    transition: 0.8s;
+}
+
+.card-service:hover{
+    cursor:  pointer;
+    box-shadow: 0 10px 30px #00000014;
+}
+
+
+
+.icon-service{
+    font-size: 60px;
+    color: #e1e1e1;
+    margin-bottom: 35px;
+    transition: 0.8s;
+}
+
+.card-service:hover .icon-service {
+    color: $fourth;
+}
+
+.card-service h4{
+font-size: 22x;
+font-weight: 700;
+margin-bottom: 20px;
+color: $text;
+text-transform: uppercase;
+}
+
+.card-service p{
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 400;
+}

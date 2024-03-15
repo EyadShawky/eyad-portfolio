@@ -1,0 +1,58 @@
+@import "./variables";
+
+.login-high{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $fourth;
+    border-radius: 32px;
+}
+
+.btn-reg{
+    background-color: $primary;
+    width: 100%;
+    height: 45px;
+    border-radius: 12px;
+    color: $secondary;
+    border: 1.5px solid $fourth;
+    transition: 0.3s;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn-reg:hover{
+    background-color: $secondary;
+    border: 1.5px solid $secondary;
+    color: $primary;
+}
+
+.style-contact{
+    height: 80vh;
+}
+
+.btn-contact{
+    width: 100%;
+    height: 45px;
+    border-radius: 12px;
+    color: $primary;
+    border: 0.5px solid $secondary;
+    transition: 0.3s;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: $secondary;
+
+}
+
+.btn-contact:hover{
+    background-color: $primary;
+    border: 1.5px solid $fourth;
+    color: $secondary;
+}
+
+
+.contact h3{
+font-size: 42px;
+font-weight: 600;
+color: $text;
+}

@@ -1,12 +1,14 @@
 import React from 'react';
 import '../style/about.scss'
-import Skills from './Skills';
+import Skills from './Services';
 import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome';
 import { faBootstrap, faCss3, faGitAlt, faGithub, faHtml5, faJs, faLaravel, faPhp, faReact } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase, faLayerGroup, faUserGroup } from '@fortawesome/free-solid-svg-icons';
+import Services from './Services';
 
 const About = () => {
     return (
+        <>
         <div className="container about-vh">
             <div class="row ">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 p-5 bg-tools">
@@ -127,8 +129,8 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <Skills />
         </div>
+              <Services/></>
     );
 }
 

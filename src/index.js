@@ -6,12 +6,13 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import LayoutMain from './components/Layout';
 import Home from './pages/home';
 import About from './pages/About';
+import Services from './pages/Services';
 
 const route = createBrowserRouter([
   { path: '/', element: <LayoutMain />, children:[
     {index:true , element:<Home />},
     {path:'/about' , element:<About />},
-    // {path:'/about' , element:<About />},
+    {path:'/services' , element:<Services />},
     // {path:'/about' , element:<About />},
 
   ] },
