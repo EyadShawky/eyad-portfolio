@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import landing from '../lottie/landing.json';
+import landing from '../lottie/landing2.json';
 import '../style/landing.scss';
 import Lottie from 'lottie-react';
 import About from './About';
@@ -24,6 +24,8 @@ const Home = () => {
     <div className='landing mb-5'>
     <div className="container pt-5">
       <div className="row">
+       
+      
         <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
           <div className='vh-landing d-flex align-items-center'>
             <div className='landing-title'>
