@@ -98,7 +98,7 @@ const About = () => {
                             <div class="card text-center">
                                 <div class="card-body">
                                 <FontAwesomeIcon className='icons' icon={faLayerGroup} />
-                                    <h5 class="card-title">+19</h5>
+                                    <h5 class="card-title">+10</h5>
                                     <p className='text-muted text-body'>projects</p>
                                 </div>
                             </div>
@@ -107,7 +107,7 @@ const About = () => {
                             <div class="card text-center">
                                 <div class="card-body">
                                 <FontAwesomeIcon className='icons' icon={faGithub} /> 
-                                    <h5 class="card-title">+62</h5>
+                                    <h5 class="card-title">+28</h5>
                                     <p className='text-muted text-body'>Github Repos</p>
                                 </div>
                             </div>
@@ -115,7 +115,7 @@ const About = () => {
                         <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mr-2 mb-2">
                             <div class="card text-center">
                                 <div class="card-body">
-                                <FontAwesomeIcon className='icons' icon={faUserGroup} />                                    <h5 class="card-title">+21</h5>
+                                <FontAwesomeIcon className='icons' icon={faUserGroup} />                                    <h5 class="card-title">+10</h5>
                                     <p className='text-muted text-body'>Clients</p>
                                 </div>
                             </div>
