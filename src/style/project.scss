@@ -1,0 +1,23 @@
+@import "./variables";
+
+.project-vh{
+    height: 150vh;
+}
+
+.project-vh h3{
+    padding-top: 32px;
+    padding-bottom: 12px;
+    font-size: 32px;
+    color: $text;
+    font-weight: 700;
+    font-style: to-upper-case($string: "");
+}
+
+.project-vh p{
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 570px;
+    font-weight: 500;
+}
+
+

@@ -1,16 +1,16 @@
 @import "./variables";
 
-.vh-services{
+.vh-services {
     height: 100%;
     background-color: $fourth;
     margin-top: 50px;
 }
 
-.service{
+.service {
     padding: 22px;
 }
 
-.service h3{
+.service h3 {
     padding-top: 12px;
     font-size: 32px;
     color: $text;
@@ -18,33 +18,43 @@
     font-style: to-upper-case($string: "");
 }
 
-.service p{
+.service p {
     font-size: 16px;
     line-height: 26px;
     max-width: 570px;
     font-weight: 500;
 }
 
-.card-service{
+.card-service {
+    width: calc(33.33% - 20px);
+    /* Adjust the width for three cards per row */
     padding: 50px 35px;
-    width: 402px !important;
     min-height: 1px;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
+    margin: 0 10px 20px;
+    /* Adjust margin for spacing */
     background-color: $primary;
     border-radius: 12px;
     transition: 0.8s;
+
+    @media (max-width: 768px) {
+        width: calc(50% - 20px);
+        /* Adjust width for two cards per row on smaller screens */
+    }
+
+    @media (max-width: 576px) {
+        width: calc(100% - 20px);
+        /* Full width for one card per row on smaller screens */
+    }
 }
 
-.card-service:hover{
-    cursor:  pointer;
+.card-service:hover {
+    cursor: pointer;
     box-shadow: 0 10px 30px #00000014;
 }
 
 
 
-.icon-service{
+.icon-service {
     font-size: 60px;
     color: #e1e1e1;
     margin-bottom: 35px;
@@ -55,16 +65,58 @@
     color: $fourth;
 }
 
-.card-service h4{
-font-size: 22x;
-font-weight: 700;
-margin-bottom: 20px;
-color: $text;
-text-transform: uppercase;
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.card-service p{
+.card-service h4 {
+    font-size: 22x;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: $text;
+    text-transform: uppercase;
+}
+
+.card-service p {
     line-height: 26px;
     font-size: 16px;
     font-weight: 400;
+}
+
+.card-project {
+    width: calc(33.33% - 20px);
+    height: 330px;
+    padding: 50px 35px;
+    min-height: 1px;
+    margin: 0 10px 20px;
+    margin-bottom: 30px;
+    background-image: url('../images/wallpaperflare.com_wallpaper.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    transition: 1s;
+
+    @media (max-width: 768px) {
+        width: calc(50% - 20px);
+        /* Adjust width for two cards per row on smaller screens */
+    }
+
+    @media (max-width: 576px) {
+        width: calc(100% - 20px);
+        /* Full width for one card per row on smaller screens */
+    }
+}
+
+
+
+.card-project:hover h4 {
+    color: $fourth;
+}
+
+.card-project:hover {
+    cursor: pointer;
+    box-shadow: 0 10px 30px #00000014;
 }

@@ -1,5 +1,9 @@
 @import "./variables";
 
+.login-vh-card{
+    height: 80vh;
+}
+
 .login-high{
     height: 100%;
     display: flex;
@@ -27,9 +31,6 @@
     color: $primary;
 }
 
-.style-contact{
-    height: 80vh;
-}
 
 .btn-contact{
     width: 100%;
@@ -50,9 +51,14 @@
     color: $secondary;
 }
 
-
 .contact h3{
-font-size: 42px;
-font-weight: 600;
-color: $text;
+    font-size:32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: $text;
+    text-transform: uppercase;
+}
+
+.style-contact{
+    height: 80vh;
 }

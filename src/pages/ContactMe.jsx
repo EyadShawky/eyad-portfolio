@@ -54,8 +54,8 @@ const ContactMe = () => {
 
   return (
     <>
-      <div className='container'>
-        <div className='d-flex justify-content-center contact mt-4'>
+      <div className='container mb-5 mt-5  login-vh-card'>
+        <div className='d-flex justify-content-center contact'>
           <div>
             <h3>Contact Me</h3>
           </div>

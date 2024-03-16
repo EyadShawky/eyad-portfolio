@@ -4,6 +4,7 @@ import '../style/landing.scss';
 import Lottie from 'lottie-react';
 import About from './About';
 import eyadCv from '../cv/eyad-cv.pdf'; // Import the CV file
+import ContactMe from './ContactMe';
 
 const Home = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
