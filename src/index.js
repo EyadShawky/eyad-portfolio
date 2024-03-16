@@ -9,6 +9,7 @@ import About from './pages/About';
 import Services from './pages/Services';
 import ContactMe from './pages/ContactMe';
 import Projects from './pages/projects';
+import ErrorPage from './pages/ErrorPage';
 
 const route = createBrowserRouter([
   { path: '/', element: <LayoutMain />, children:[
@@ -17,6 +18,7 @@ const route = createBrowserRouter([
     {path:'/services' , element:<Services />},
     {path:'/projects' , element:<Projects />},
     {path:'/contact' , element:<ContactMe />},
+    {path:'*' , element:<ErrorPage />},
 
   ] },
 ])
