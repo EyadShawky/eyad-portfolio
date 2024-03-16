@@ -7,13 +7,16 @@ import LayoutMain from './components/Layout';
 import Home from './pages/home';
 import About from './pages/About';
 import Services from './pages/Services';
+import ContactMe from './pages/ContactMe';
+import Projects from './pages/projects';
 
 const route = createBrowserRouter([
   { path: '/', element: <LayoutMain />, children:[
     {index:true , element:<Home />},
     {path:'/about' , element:<About />},
     {path:'/services' , element:<Services />},
-    // {path:'/about' , element:<About />},
+    {path:'/projects' , element:<Projects />},
+    {path:'/contact' , element:<ContactMe />},
 
   ] },
 ])
