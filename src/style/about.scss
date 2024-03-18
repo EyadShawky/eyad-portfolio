@@ -1,5 +1,10 @@
 @import "./variables";
 
+.about-bg{
+    background-color: $fourth;
+    padding: 22px;
+}
+
 .about-vh h3{
     font-size: 42px;
     font-weight: 600;
@@ -24,7 +29,7 @@
 
 .card{
     box-shadow: 0 1px 3px #0000001a, 0 1px 2px #0000000f;
-    background-color: #fff;
+    background-color: $primary;
     
 }
 
@@ -43,7 +48,7 @@
 .span-about{
 font-weight: 700 !important;
 font-size: 28px;
-color: #fff !important;
+color: $primary !important;
 margin-bottom: 42px !important;
 }
 
@@ -64,8 +69,8 @@ margin-bottom: 42px !important;
 }
 
 .bg-tools{
-    background-color: $third !important;
-    box-shadow: 0 1px 3px #0000001a, 0 1px 2px #ffffff0f;
+    background-color: $secondary !important;
+    box-shadow: 0 1px 3px #0000001a, 0 1px 2px $primary;
     border-radius: 12px;
     
 

@@ -3,7 +3,7 @@ import '../style/Conatct.scss';
 import { Alert, Space, notification } from 'antd';
 import emailjs from '@emailjs/browser';
 import Lottie from 'lottie-react';
-import contactUs from '../lottie/contact-me (1).json';
+import contactUs from '../lottie/contact-me.json';
 import ExternalLink from './ExternalLink'; // Assuming ExternalLink component is in ExternalLink.js
 
 const ContactMe = () => {
@@ -55,17 +55,20 @@ const ContactMe = () => {
   return (
     <>
       <div className='container mb-5 mt-5  login-vh-card'>
-        <div className='d-flex justify-content-center contact'>
-          <div>
-            <h3>Contact Me</h3>
-          </div>
+        <div className=' contact'>
+        <div className='d-flex justify-content-center text-center'>
+                        <div>
+                            <h3>CONTACT ME</h3>
+                            <p className='text-muted'>What are you waiting for? <br /> Let's get in touch!</p>
+                        </div>
+        </div>
 
         </div>
         <div className="row">
-          <div className="col-lg-6 d-none d-lg-block">
+          <div className="col-lg-6 d-none d-lg-block ">
             <Lottie animationData={contactUs} className='style-contact' />
           </div>
-          <div className="col-12 col-lg-6 login-high mt-4">
+          <div className="col-12 col-lg-6 login-high mt-3 mb-3">
             <form ref={form} onSubmit={sendEmail}>
               <div className="row p-5">
                 <div className="col-12 mt-3">
@@ -85,7 +88,7 @@ const ContactMe = () => {
                   <input type="email" className="form-control" placeholder="Email" name="user_email" />
                 </div>
                 <div className="col-12 mt-3">
-                  <textarea className="form-control" id="exampleFormControlTextarea1" placeholder="type your message here and our team will help you ASAP!" rows="3" name="message"></textarea>
+                  <textarea className="form-control" id="exampleFormControlTextarea1" placeholder="type your message here and i will respond to you ASAP!" rows="3" name="message"></textarea>
                 </div>
                 <div className="col-12 mt-3 mb-3">
                   <button type="submit" className='btn-reg'>Send Message</button>

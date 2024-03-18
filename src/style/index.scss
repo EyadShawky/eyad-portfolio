@@ -21,7 +21,7 @@ a {
 }
 
 .ant-card-meta-title{
-  color: $primary !important;
+  color: $secondary !important;
   font-size: 22px !important;
   font-weight: 600;
 }
@@ -46,11 +46,6 @@ a {
   letter-spacing: 0.03938em !important;
 }
 
-.css-bv1b19{
-  color: $text !important;
-  font-size: 16px !important;
-  font-weight: 500 !important;
-}
 
 .css-bv1b19:hover{
   background-color: $primary !important;
@@ -58,7 +53,7 @@ a {
 }
 
 .css-1kkpk3h-MuiButtonBase-root-MuiButton-root{
-  color: $text !important;
+  color: $secondary !important;
   font-size: 16px !important;
   font-weight: 500 !important;
 }
@@ -69,12 +64,18 @@ a {
 }
 
 .css-p7bec2-MuiTypography-root{
-  color: $text !important;
+  color: $secondary !important;
   font-size: 25px !important;
   font-weight: 700 !important;
   letter-spacing: 0.03938em !important;
 }
 
 .css-6iz4mj-MuiButtonBase-root-MuiIconButton-root{
-  color: $text !important;
+  color: $secondary !important;
+}
+
+.css-1ft1ppl-MuiButtonBase-root-MuiButton-root{
+  color: $secondary !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
 }

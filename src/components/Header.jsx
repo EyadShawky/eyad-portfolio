@@ -73,7 +73,7 @@ function Header(props) {
           </Container>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
-              <Button key={item} component={RouterLink} to={item === 'Home' ? '/' : `/${item.toLowerCase()}`} sx={{ color: '#fff' }}>
+              <Button key={item} component={RouterLink} to={item === 'Home' ? '/' : `/${item.toLowerCase()}`} sx={{ color: '$primary' }}>
                 {item}
               </Button>
             ))}

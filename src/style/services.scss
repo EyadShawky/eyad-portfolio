@@ -2,8 +2,7 @@
 
 .vh-services {
     height: 100%;
-    background-color: $fourth;
-    margin-top: 50px;
+    margin-top: 16px;
 }
 
 .service {
@@ -32,10 +31,10 @@
     min-height: 1px;
     margin: 0 10px 20px;
     /* Adjust margin for spacing */
-    background-color: $primary;
+    background-color: $secondary;
     border-radius: 12px;
     transition: 0.8s;
-
+    margin-top: 18px;
     @media (max-width: 768px) {
         width: calc(50% - 20px);
         /* Adjust width for two cards per row on smaller screens */
@@ -56,7 +55,7 @@
 
 .icon-service {
     font-size: 60px;
-    color: #e1e1e1;
+    color: #FFF;
     margin-bottom: 35px;
     transition: 0.8s;
 }
@@ -75,7 +74,7 @@
     font-size: 22x;
     font-weight: 700;
     margin-bottom: 20px;
-    color: $text;
+    color: $primary !important;
     text-transform: uppercase;
 }
 
@@ -83,6 +82,7 @@
     line-height: 26px;
     font-size: 16px;
     font-weight: 400;
+    color: $fourth !important;
 }
 
 .card-project {
@@ -119,4 +119,25 @@
 .card-project:hover {
     cursor: pointer;
     box-shadow: 0 10px 30px #00000014;
+}
+
+
+.project-vh{
+    background-color: $fourth !important;
+}
+
+.project-vh h3{
+    padding-top: 32px;
+    padding-bottom: 12px;
+    font-size: 32px;
+    color: $text;
+    font-weight: 700;
+    font-style: to-upper-case($string: "");
+}
+
+.project-vh p{
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 570px;
+    font-weight: 500;
 }
