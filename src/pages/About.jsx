@@ -8,7 +8,7 @@ import Services from './Services';
 const About = () => {
     return (
         <>
-        <div className='about-bg'>
+        <div className='about-bg'> 
         <div className="container about-vh">
             <div class="row ">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 p-5 bg-tools">
