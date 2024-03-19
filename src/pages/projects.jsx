@@ -32,7 +32,7 @@ const Projects = () => {
                             <h3>MY RECENT COMPLETED PROJECTS</h3>
                             <p className='text-muted'>exploring the world of projects. This is just a glimpse of what I bring to the table. Stay tuned for a wave of innovation about to unfold!</p>
                         </div>
-                    </div>
+                    </div> 
  
                     <div className='row mt-4'>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 card-project mb-4" style={{ backgroundImage: `url(${ClipfyBackground})`, backgroundPosition: 'center center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', width: '98.5%', height: '100%' }}>
