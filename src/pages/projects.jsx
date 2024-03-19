@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import { Link } from 'react-router-dom'; 
 import '../style/services.scss';
 import ContactMe from './ContactMe';
 
@@ -33,7 +33,7 @@ const Projects = () => {
                             <p className='text-muted'>exploring the world of projects. This is just a glimpse of what I bring to the table. Stay tuned for a wave of innovation about to unfold!</p>
                         </div>
                     </div>
-
+ 
                     <div className='row mt-4'>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 card-project mb-4" style={{ backgroundImage: `url(${ClipfyBackground})`, backgroundPosition: 'center center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', width: '98.5%', height: '100%' }}>
                             <Link to="https://www.behance.net/gallery/194226521/clipify" className='d-flex justify-content-start align-items-end ' style={{ height: '100%' }}>
