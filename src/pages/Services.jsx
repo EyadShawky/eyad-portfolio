@@ -23,7 +23,7 @@ const Services = () => {
                     <div class=" col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 card-service mb-4 ">
                     <FontAwesomeIcon icon={faLink} className='icon-service' />
                     <h4>FULL-STACK WIZARDRY</h4>
-                    <p className='text-muted'>Seamlessly bridge the ga className='text-muted' between frontend elegance and backend robustness. I specialize in full-stack development, ensuring your web projects are crafted with expertise on both ends.</p>
+                    <p className='text-muted'>Seamlessly bridge the gap between frontend elegance and backend robustness. I specialize in full-stack development, ensuring your web projects are crafted with expertise on both ends.</p>
                     </div>
 
                     <div class=" col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 card-service mb-4 ">
@@ -41,18 +41,18 @@ const Services = () => {
                     <div class=" col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 card-service mb-4 ">
                     <FontAwesomeIcon icon={faDatabase} className='icon-service' />
                     <h4>DATA DYNAMO</h4>
-                    <p className='text-muted'>Seamlessly bridge the gap between frontend elegance and backend robustness. I specialize in full-stack development, ensuring your web projects are crafted with expertise on both ends.</p>
+                    <p className='text-muted'>Efficiently manage and organize your data. From relational databases to NoSQL solutions, I implement backend systems that handle your data seamlessly, ensuring reliability and performance.</p>
                     </div>
 
                     <div class=" col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 card-service mb-4 ">
                     <FontAwesomeIcon icon={faNetworkWired} className='icon-service' />                    <h4>API ALCHEMY</h4>
-                    <p className='text-muted'>Seamlessly bridge the gap between frontend elegance and backend robustness. I specialize in full-stack development, ensuring your web projects are crafted with expertise on both ends.</p>
+                    <p className='text-muted'>Craft robust APIs to connect and communicate between frontend and backend components. I specialize in API development, facilitating smooth interactions and data flow in your applications.</p>
                     </div>
 
                     <div class=" col-sm-12 col-md-4 col-lg-4 col-xl-4 card-service mb-4 ">
                     <FontAwesomeIcon icon={faUserGear} className='icon-service' />  
                      <h4>END-TO-END PROJECT EXPERTISE</h4>
-                    <p className='text-muted'>Seamlessly bridge the gap between frontend elegance and backend robustness. I specialize in full-stack development, ensuring your web projects are crafted with expertise on both ends.</p>
+                    <p className='text-muted'>Beyond coding, I bring project management skills to ensure a streamlined development process. From concept to deployment, your web project is in capable hands.</p>
                     </div>
 
                 </div>
