@@ -92,10 +92,7 @@
     min-height: 1px;
     margin: 0 10px 20px;
     margin-bottom: 30px;
-    background-image: url('../images/wallpaperflare.com_wallpaper.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    height:40vh !important;
     border-radius: 12px;
     transition: 1s;
 
@@ -113,7 +110,11 @@
 
 
 .card-project:hover h4 {
-    color: $fourth;
+    transition: 0.4s;
+    background-color: $third;
+    padding: 12px;
+    border-radius: 12px;
+    color: $primary;
 }
 
 .card-project:hover {
