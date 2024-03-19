@@ -54,17 +54,24 @@
 .contact h3{
     font-size:32px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: $text;
     text-transform: uppercase;
 }
 
 .style-contact {
-    height: 70vh;
+    width: 80%; /* Set width to 80% of the container */
+    height: auto; /* Allow height to adjust automatically */
     margin-bottom: 30px;
 }
 
 /* Responsive adjustments */
+@media screen and (max-width: 992px) {
+    .style-contact {
+        width: 100%; /* Make it full width on smaller screens */
+    }
+}
+
 @media screen and (max-width: 768px) {
     .style-contact {
         height: auto; /* Adjust height based on content */

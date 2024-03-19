@@ -61,7 +61,7 @@
 }
 
 .card-service:hover .icon-service {
-    color: $fourth;
+    color: $third;
 }
 
 .row {
@@ -94,7 +94,6 @@
     margin-bottom: 30px;
     height:40vh !important;
     border-radius: 12px;
-    transition: 1s;
 
     @media (max-width: 768px) {
         width: calc(50% - 20px);
@@ -110,11 +109,12 @@
 
 
 .card-project:hover h4 {
-    transition: 0.4s;
+    transition: 0.5s;
     background-color: $third;
     padding: 12px;
     border-radius: 12px;
     color: $primary;
+
 }
 
 .card-project:hover {
