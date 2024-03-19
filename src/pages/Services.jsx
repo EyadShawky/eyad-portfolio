@@ -3,7 +3,6 @@ import '../style/services.scss'
 import { faDatabase, faLink, faNetworkWired, faServer, faTv, faUserGear } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Projects from './projects';
-import ContactMe from './ContactMe';
 
 
 const Services = () => {
