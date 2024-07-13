@@ -94,7 +94,7 @@ const ContactMe = () => {
                   <button type="submit" className='btn-reg'>Send Message</button>
                   <div className='row'>
                     <div className="col-12 col-sm-4 col-md-4 mt-3">
-                      <ExternalLink to={'https://www.linkedin.com/in/eyad-shawky-81a046204/'}>
+                      <ExternalLink to={'www.linkedin.com/in/eyad-shawky17'}>
                         <button className='btn-contact'>LinkedIn</button>
                       </ExternalLink>
                     </div>
